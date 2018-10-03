@@ -1,3 +1,10 @@
+//Elongationator Plugin
+// v.1.0.0
+// by Brian Ray
+// http://monodesigns.github.io/
+
+
+// Structure based off of
 // jQuery Plugin Boilerplate
 // by Stefan Gabos
 // http://stefangabos.ro/jquery/jquery-plugin-boilerplate-oop/

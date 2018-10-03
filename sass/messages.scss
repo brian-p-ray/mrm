@@ -1,0 +1,29 @@
+.message {
+    margin: 10px 0;
+    border: 1px solid;
+    padding: 10px;
+
+    p {
+        margin: 0;
+    }
+}
+.message--type-info {
+    color: #77f;
+    background: #ddf;
+}
+.message--type-success {
+    color: #7c7;
+    background: #dfd;
+}
+.message--type-warning {
+    color: #cc7;
+    background: #ffd;
+}
+.message--type-danger {
+    color: #c77;
+    background: #fdd;
+}
+.message--type-default {
+    color: $text-dk-gray;
+    background: #fff;
+}

@@ -1,0 +1,39 @@
+.expander__item {
+    border-bottom: 2px solid #fff;
+}
+.expander__item__header {
+    padding: 0 10px;
+    background: $dk-gray;
+    color: #fff;
+    cursor: pointer;
+    overflow: hidden;
+    padding-left: 40px;
+    position: relative;
+}
+.expander__item__header:before {
+    position: absolute;
+    font-size: 2em;
+}
+.expander__item--closed .expander__item__header:before {
+    content: '+';
+    top: 0;
+    left: 10px;
+}
+.expander__item--open .expander__item__header:before {
+    content: '–';
+    top: -.3rem;
+    left: 10px;
+}
+.expander__item--open .expander__item__content {
+    max-height: 2000px; // https://stackoverflow.com/questions/3508605/how-can-i-transition-height-0-to-height-auto-using-css#8331169
+    overflow: hidden;
+    transition: max-height .5s linear;
+}
+.expander__item--closed .expander__item__content {
+    max-height: 0;
+    overflow: hidden;
+    transition: all .5s linear;
+}
+.content--hidden {
+    display: none;
+}

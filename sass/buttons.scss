@@ -1,0 +1,19 @@
+.btn-group {
+    text-align: center;
+}
+.btn {
+    background: #fff;
+    border: 2px solid $text-dk-gray;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 3em;
+    margin: 0 5px;
+    text-transform: uppercase;
+    width: 35%;
+}
+.btn:disabled {
+    border-color: $disabled-color;
+    color: $disabled-color;
+    cursor: not-allowed;
+}

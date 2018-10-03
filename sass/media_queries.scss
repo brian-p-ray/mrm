@@ -1,0 +1,24 @@
+@media (max-width: 959px) {
+    .expander__item--closed .expander__item__header:before {
+        left: auto;
+        right: 10px;
+    }
+    .expander__item--open .expander__item__header:before {
+        left: auto;
+        right: 10px;
+    }
+    .expander__item__header {
+        padding-left: 20px;
+    }
+}
+@media (min-width: 600px) and (max-width: 959px) {
+    .btn {
+        width: 40%;
+    }
+}
+@media (min-width: 320px) and (max-width: 600px) {
+    .btn {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
